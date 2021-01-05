@@ -28,6 +28,10 @@ Channel模型
 channel模型
 
 　　Go语言的CSP模型是由协程Goroutine与通道Channel实现：
+  
+    ![Image text](https://github.com/wangziyuruc/study-knowledge/blob/main/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B/csp.jpg)
+
+  
 
 Go协程goroutine: 是一种轻量线程，它不是操作系统的线程，而是将一个操作系统线程分段使用，通过调度器实现协作式调度。是一种绿色线程，微线程，它与Coroutine协程也有区别，能够在发现堵塞后启动新的微线程。
 通道channel: 类似Unix的Pipe，用于协程之间通讯和同步。协程之间虽然解耦，但是它们和Channel有着耦合。
@@ -35,6 +39,9 @@ Go协程goroutine: 是一种轻量线程，它不是操作系统的线程，而�
 
 Actor模型和CSP区别
 　　Actor模型和CSP区别图如下：
+  
+    ![Image text](https://github.com/wangziyuruc/study-knowledge/blob/main/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B/actor%26csp.jpg)
+
 
 　　Actor之间直接通讯，而CSP是通过Channel通讯，在耦合度上两者是有区别的，后者更加松耦合。
 
