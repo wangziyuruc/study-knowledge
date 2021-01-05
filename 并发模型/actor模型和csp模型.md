@@ -5,7 +5,7 @@ Actor模型和CSP模型的区别
 
 Actor模型
 　　在Actor模型中，主角是Actor，类似一种worker，Actor彼此之间直接发送消息，不需要经过什么中介，消息是异步发送和处理的：
-  ![Image text](并发模型/actor.jpg)
+  ![Image text](https://github.com/wangziyuruc/study-knowledge/blob/main/%E5%B9%B6%E5%8F%91%E6%A8%A1%E5%9E%8B/actor.jpg)
 
 actor模型
 
